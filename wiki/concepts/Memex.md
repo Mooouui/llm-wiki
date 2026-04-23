@@ -8,7 +8,7 @@ last_updated: 2026-04-09
 
 # Memex
 
-Hypothetical device described by [[Vannevar Bush]] in his 1945 article "As We May Think" in The Atlantic Monthly. A desk-sized machine where an individual could store all books, records, and communications, search them rapidly, and create "associative trails" — linked sequences of documents with personal annotations.
+Hypothetical device described by [[VannevarBush|Vannevar Bush]] in his 1945 article "As We May Think" in The Atlantic Monthly. A desk-sized machine where an individual could store all books, records, and communications, search them rapidly, and create "associative trails" — linked sequences of documents with personal annotations.
 
 ## Core Insight
 
@@ -28,6 +28,6 @@ Karpathy observes the web became public and chaotic, not the private curated spa
 
 ## Connections
 
-- [[Vannevar Bush]] — originator
-- [[LLM Wiki]] — modern realization
-- [[Andrej Karpathy]] — cited as inspiration
+- [[VannevarBush|Vannevar Bush]] — originator
+- [[LLMWiki|LLM Wiki]] — modern realization
+- [[AndrejKarpathy|Andrej Karpathy]] — cited as inspiration

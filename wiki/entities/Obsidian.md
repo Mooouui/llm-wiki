@@ -18,5 +18,5 @@ Markdown-based knowledge management application that serves as the "frontend IDE
 
 ## Connections
 
-- [[Andrej Karpathy]] — his preferred frontend tool
-- [[LLM Wiki]] — serves as the browsing layer
+- [[AndrejKarpathy|Andrej Karpathy]] — his preferred frontend tool
+- [[LLMWiki|LLM Wiki]] — serves as the browsing layer

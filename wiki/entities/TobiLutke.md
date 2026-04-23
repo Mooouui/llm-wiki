@@ -12,4 +12,4 @@ Shopify CEO and developer of **qmd**, a local Markdown search engine that combin
 
 ## Connections
 
-- [[LLM Wiki]] — qmd is recommended for scaling beyond index.md's limits
+- [[LLMWiki|LLM Wiki]] — qmd is recommended for scaling beyond index.md's limits

@@ -12,6 +12,6 @@ Anthropic's CLI-based LLM agent. In the LLM Wiki architecture, Claude Code serve
 
 ## Connections
 
-- [[Andrej Karpathy]] — his preferred LLM agent
-- [[LLM Wiki]] — serves as the wiki maintenance engine
+- [[AndrejKarpathy|Andrej Karpathy]] — his preferred LLM agent
+- [[LLMWiki|LLM Wiki]] — serves as the wiki maintenance engine
 - [[Schema]] — configured via CLAUDE.md

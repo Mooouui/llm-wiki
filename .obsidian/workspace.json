@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "634d0e1eb48852ce",
+        "id": "8f02c9d93ad5a757",
         "type": "tabs",
         "children": [
           {
-            "id": "e20e5637ac3db0d4",
+            "id": "12a997f4602df316",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/overview.md",
+                "file": "raw/articles/Ingest Data into the CMDB.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "overview"
+              "title": "Ingest Data into the CMDB"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 221.5
   },
   "right": {
     "id": "c97b6a7e2aef92ff",
@@ -94,8 +94,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/concepts/Hormesis.md",
-                "collapseAll": false,
+                "file": "raw/articles/Ingest Data into the CMDB.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Hormesis 的反向链接列表"
+              "title": "Ingest Data into the CMDB 的反向链接列表"
             }
           },
           {
@@ -156,21 +156,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/concepts/Hormesis.md",
+                "file": "raw/articles/Ingest Data into the CMDB.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Hormesis 的大纲"
+              "title": "Ingest Data into the CMDB 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,34 +183,39 @@
       "bases:新建数据库": false
     }
   },
-  "active": "e20e5637ac3db0d4",
+  "active": "12a997f4602df316",
   "lastOpenFiles": [
-    "wiki/log.md",
+    "raw/articles/Configure the CMDB.md",
+    "wiki/entities/ServiceNow.md",
+    "wiki/syntheses/reconciliation-rules-explained.md",
+    "wiki/syntheses/static-vs-dynamic-reconciliation.md",
+    "wiki/sources/configure-the-cmdb.md",
     "wiki/index.md",
-    "wiki/sources/llm-wiki-complete-guide.md",
-    "wiki/entities/Obsidian.md",
+    "wiki/concepts/MultisourceCMDB.md",
+    "wiki/concepts/IRE.md",
+    "wiki/concepts/CMDB.md",
+    "raw/articles/Ingest Data into the CMDB.md",
+    "raw/assets/dynamic-reconciliation-rule-advantage.png",
+    "raw/assets/ire-process.png",
+    "raw/assets",
+    "raw/articles/LLM Wiki：让大模型替你打理知识库的完整指南.md",
+    "wiki/concepts/LLMWiki.md",
+    "README.md",
+    "LICENSE.md",
     "wiki/entities/ClaudeCode.md",
-    "wiki/entities/AndrejKarpathy.md",
     "wiki/concepts/Schema.md",
     "wiki/concepts/Memex.md",
-    "wiki/concepts/LLMWiki.md",
-    "wiki/concepts/Hormesis.md",
-    "raw/articles/LLM Wiki：让大模型替你打理知识库的完整指南.md",
-    "wiki/concepts/Zettelkasten.md",
-    "LLM Wiki.md",
-    "Extended Brain.md",
-    "Andrej Karpathy.md",
+    "Claude Code.md",
+    "wikilinks.md",
     "wiki/overview.md",
-    "wiki/concepts/RAG.md",
+    "wiki/log.md",
+    "wiki/sources/llm-wiki-complete-guide.md",
+    "wiki/entities/Obsidian.md",
+    "wiki/entities/AndrejKarpathy.md",
+    "wiki/concepts/Hormesis.md",
+    "wiki/concepts/Zettelkasten.md",
     "wiki/concepts",
-    "wiki/entities/NotebookLM.md",
-    "wiki/entities/VannevarBush.md",
-    "wiki/entities/TobiLutke.md",
-    "wiki/entities/NiklasLuhmann.md",
-    "wiki/entities/ExtendedBrain.md",
     "wiki/entities",
-    "wiki/sources",
-    "CLAUDE.md",
-    "AGENTS.md"
+    "wiki/sources"
   ]
 }

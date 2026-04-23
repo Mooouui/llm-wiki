@@ -23,5 +23,5 @@ The article describes NotebookLM as a "well-equipped library reading room" — e
 
 ## Connections
 
-- [[LLM Wiki]] — architectural contrast
+- [[LLMWiki|LLM Wiki]] — architectural contrast
 - [[RAG]] — shares RAG's fundamental limitation

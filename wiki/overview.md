@@ -2,8 +2,8 @@
 title: "Overview"
 type: synthesis
 tags: []
-sources: [llm-wiki-complete-guide]
-last_updated: 2026-04-09
+sources: [llm-wiki-complete-guide, configure-the-cmdb]
+last_updated: 2026-04-22
 ---
 
 # Overview
@@ -12,7 +12,7 @@ last_updated: 2026-04-09
 
 ## What is LLM Wiki?
 
-LLM Wiki is a pattern (not a product) proposed by [[Andrej Karpathy]] in April 2026 for building personal knowledge bases where an LLM agent continuously writes, links, and maintains structured Markdown files. It inverts the traditional [[RAG]] paradigm: instead of re-processing sources on every query, sources are "compiled" once at ingestion time into a persistent, compounding wiki.
+LLM Wiki is a pattern (not a product) proposed by [[AndrejKarpathy|Andrej Karpathy]] in April 2026 for building personal knowledge bases where an LLM agent continuously writes, links, and maintains structured Markdown files. It inverts the traditional [[RAG]] paradigm: instead of re-processing sources on every query, sources are "compiled" once at ingestion time into a persistent, compounding wiki.
 
 ## The Architecture
 
@@ -32,10 +32,18 @@ Two index files (`index.md` for spatial navigation, `log.md` for temporal tracki
 
 ## Key Tension: Automation vs. Understanding
 
-The deepest critique comes from [[Extended Brain]], drawing on [[Niklas Luhmann]]'s [[Zettelkasten]] and the concept of [[Hormesis|cognitive friction]]. The argument: LLM Wiki produces excellent maps, but the user never walks the territory. The struggle of expressing ideas in your own words — when language breaks down and reveals understanding gaps — is not a bug but the mechanism of learning itself.
+The deepest critique comes from [[ExtendedBrain|Extended Brain]], drawing on [[NiklasLuhmann|Niklas Luhmann]]'s [[Zettelkasten]] and the concept of [[Hormesis|cognitive friction]]. The argument: LLM Wiki produces excellent maps, but the user never walks the territory. The struggle of expressing ideas in your own words — when language breaks down and reveals understanding gaps — is not a bug but the mechanism of learning itself.
 
 The recommended hybrid: use LLM for scaffolding (linking, indexing, gap-finding), but keep synthesis in your own hands.
 
+## CMDB & Configuration Management
+
+The wiki also covers enterprise IT configuration management through the lens of [[ServiceNow]]'s [[CMDB]] platform. The key insight: a CMDB is only as trustworthy as its data integrity controls. With multiple discovery sources (Discovery, SCCM, Service Graph Connectors, REST integrations) all writing to the same database, governance is essential.
+
+The [[IRE|Identification & Reconciliation Engine]] acts as a gatekeeper — no source writes directly to the CMDB. It handles identification (unique CI matching), reconciliation (authoritative source selection), deduplication, and reclassification. When reconciliation rules are properly configured, they handle 90% of source-trust decisions.
+
+For deeper auditability, [[MultisourceCMDB|CMDB 360]] (Paris release) retains every proposed value from every source — including rejected ones — enabling data gap analysis, source reversion, and on-the-fly rule recomputation.
+
 ## Historical Lineage
 
-[[Vannevar Bush]]'s 1945 [[Memex]] envisioned a personal knowledge machine with associative trails. His unsolved problem — who does the maintenance? — is answered by LLMs. The web became public and chaotic; LLM Wiki returns to Bush's original vision of private, curated knowledge.
+[[VannevarBush|Vannevar Bush]]'s 1945 [[Memex]] envisioned a personal knowledge machine with associative trails. His unsolved problem — who does the maintenance? — is answered by LLMs. The web became public and chaotic; LLM Wiki returns to Bush's original vision of private, curated knowledge.

@@ -18,7 +18,7 @@ AI researcher and former OpenAI founding member / Tesla AI director. In April 20
 
 ## Connections
 
-- [[LLM Wiki]] — originated the concept
+- [[LLMWiki|LLM Wiki]] — originated the concept
 - [[Obsidian]] — his preferred frontend
-- [[Claude Code]] — his preferred LLM agent
+- [[ClaudeCode|Claude Code]] — his preferred LLM agent
 - [[Memex]] — cited Vannevar Bush as inspiration

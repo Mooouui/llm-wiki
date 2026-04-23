@@ -18,4 +18,4 @@ Extended Brain uses Luhmann as the primary counterpoint to Karpathy's LLM Wiki. 
 
 - [[Zettelkasten]] — his methodology
 - [[Hormesis]] — his method embodies cognitive hormesis
-- [[LLM Wiki]] — modern contrast to his approach
+- [[LLMWiki|LLM Wiki]] — modern contrast to his approach

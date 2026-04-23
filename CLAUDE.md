@@ -53,7 +53,7 @@ last_updated: YYYY-MM-DD
 ---
 ```
 
-Use `[[PageName]]` wikilinks to link to other wiki pages.
+Use `[[PageName]]` wikilinks to link to other wiki pages. When the page filename (PascalCase, no spaces) differs from the display title, use the pipe syntax: `[[PageName|Display Title]]`. For example, the file `entities/ClaudeCode.md` is linked as `[[ClaudeCode|Claude Code]]`.
 
 ---
 

@@ -1,13 +1,12 @@
 ---
-title: "LLM Wiki：让大模型替你打理知识库的完整指南"
-source: "https://juejin.cn/post/7625563529491726378#heading-19"
+title: LLM Wiki：让大模型替你打理知识库的完整指南
+source: https://juejin.cn/post/7625563529491726378#heading-19
 author:
-  - "[[lizhongxuan]]"
 published: 2026-04-07
 created: 2026-04-09
-description: "这篇文章是对 Karpathy 原文、社区讨论和多方评论的一次完整梳理。我们会讲清楚 LLM Wiki 是什么、解决了什么问题、怎么落地，以及它的局限性在哪里。"
+description: 这篇文章是对 Karpathy 原文、社区讨论和多方评论的一次完整梳理。我们会讲清楚 LLM Wiki 是什么、解决了什么问题、怎么落地，以及它的局限性在哪里。
 tags:
-  - "clippings"
+  - clippings
 ---
 > 2026 年 4 月，Andrej Karpathy 在 X 上分享了一条帖子，浏览量超过 1700 万。他说自己不再把大模型主要用于写代码，而是将绝大多数 Token 消耗转向了构建个人知识库。随后他在 GitHub Gist 上发布了一份名为 "LLM Wiki" 的 idea file，详细描述了这套模式的架构、操作流程和工具链。
 > 

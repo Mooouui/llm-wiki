@@ -27,5 +27,5 @@ RAG has **no accumulation**. Every complex query requires re-retrieval and re-sy
 
 ## Connections
 
-- [[LLM Wiki]] — the alternative paradigm
+- [[LLMWiki|LLM Wiki]] — the alternative paradigm
 - [[NotebookLM]] — shares RAG's fundamental limitation

@@ -8,7 +8,7 @@ last_updated: 2026-04-09
 
 # LLM Wiki
 
-A pattern (not a product) for personal/team knowledge management where an LLM agent continuously builds and maintains a structured, interlinked local Markdown knowledge base. Coined by [[Andrej Karpathy]] in April 2026.
+A pattern (not a product) for personal/team knowledge management where an LLM agent continuously builds and maintains a structured, interlinked local Markdown knowledge base. Coined by [[AndrejKarpathy|Andrej Karpathy]] in April 2026.
 
 ## Core Principle
 
@@ -46,7 +46,7 @@ Source ingested → Wiki updated → Query produces insight → Best insights ar
 - [[Memex]] — 1945 ancestor vision
 - [[Schema]] — the control protocol layer
 - [[Obsidian]] — recommended frontend
-- [[Claude Code]] — recommended LLM agent
-- [[Andrej Karpathy]] — originator
+- [[ClaudeCode|Claude Code]] — recommended LLM agent
+- [[AndrejKarpathy|Andrej Karpathy]] — originator
 - [[NotebookLM]] — product contrast
 - [[Hormesis]] — critical concern about cognitive friction

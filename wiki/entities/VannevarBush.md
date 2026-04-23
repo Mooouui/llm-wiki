@@ -17,5 +17,5 @@ Karpathy cites Bush's Memex as a direct ancestor of LLM Wiki. The Memex concept 
 ## Connections
 
 - [[Memex]] — his 1945 vision
-- [[LLM Wiki]] — modern realization of his idea
-- [[Andrej Karpathy]] — cited him as inspiration
+- [[LLMWiki|LLM Wiki]] — modern realization of his idea
+- [[AndrejKarpathy|Andrej Karpathy]] — cited him as inspiration

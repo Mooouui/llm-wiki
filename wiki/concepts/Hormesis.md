@@ -8,7 +8,7 @@ last_updated: 2026-04-09
 
 # Hormesis (Cognitive Friction)
 
-Biological concept adopted by [[Extended Brain]] as a critique framework for [[LLM Wiki]]. Hormesis: small doses of stress (exercise, heat, mild toxins) make organisms stronger; complete elimination of stress weakens them.
+Biological concept adopted by [[ExtendedBrain|Extended Brain]] as a critique framework for [[LLMWiki|LLM Wiki]]. Hormesis: small doses of stress (exercise, heat, mild toxins) make organisms stronger; complete elimination of stress weakens them.
 
 ## Application to Knowledge Work
 
@@ -21,7 +21,7 @@ When you struggle to express a difficult idea in your own words, the moment your
 Imagine wanting to get fit. You hire a trainer to exercise *for you* and report back. You get a detailed map of fitness — muscle groups, progression, principles — but your body did no work.
 
 - [[Zettelkasten]] = the exercise itself
-- [[LLM Wiki]] = the trainer's report
+- [[LLMWiki|LLM Wiki]] = the trainer's report
 
 ## Recommended Hybrid
 
@@ -31,7 +31,7 @@ Imagine wanting to get fit. You hire a trainer to exercise *for you* and report 
 
 ## Connections
 
-- [[Extended Brain]] — source of this critique
+- [[ExtendedBrain|Extended Brain]] — source of this critique
 - [[Zettelkasten]] — method that preserves cognitive friction
-- [[LLM Wiki]] — the system critiqued through this lens
-- [[Niklas Luhmann]] — exemplar of friction-based knowledge work
+- [[LLMWiki|LLM Wiki]] — the system critiqued through this lens
+- [[NiklasLuhmann|Niklas Luhmann]] — exemplar of friction-based knowledge work

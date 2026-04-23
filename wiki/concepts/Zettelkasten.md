@@ -8,7 +8,7 @@ last_updated: 2026-04-09
 
 # Zettelkasten
 
-"Slip-box" note-taking method developed by German sociologist [[Niklas Luhmann]], who used ~90,000 index cards to produce 70+ books and 400+ papers.
+"Slip-box" note-taking method developed by German sociologist [[NiklasLuhmann|Niklas Luhmann]], who used ~90,000 index cards to produce 70+ books and 400+ papers.
 
 ## Core Principles
 
@@ -28,7 +28,7 @@ Extended Brain argues this distinction is critical via the concept of [[Hormesis
 
 ## Connections
 
-- [[Niklas Luhmann]] — creator
-- [[LLM Wiki]] — modern counterpart
+- [[NiklasLuhmann|Niklas Luhmann]] — creator
+- [[LLMWiki|LLM Wiki]] — modern counterpart
 - [[Hormesis]] — the friction critique
-- [[Extended Brain]] — source of the comparison
+- [[ExtendedBrain|Extended Brain]] — source of the comparison

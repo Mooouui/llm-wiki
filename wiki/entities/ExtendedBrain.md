@@ -17,5 +17,5 @@ LLM Wiki produces beautiful maps but the user never walks the territory. Recomme
 ## Connections
 
 - [[Hormesis]] — core concept in their critique
-- [[Niklas Luhmann]] — their primary reference
-- [[LLM Wiki]] — the target of their critique
+- [[NiklasLuhmann|Niklas Luhmann]] — their primary reference
+- [[LLMWiki|LLM Wiki]] — the target of their critique

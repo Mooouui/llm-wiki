@@ -33,5 +33,5 @@ The schema is co-evolved between human and LLM. As you use the wiki, you discove
 
 ## Connections
 
-- [[LLM Wiki]] — the control layer for the system
-- [[Claude Code]] — reads CLAUDE.md as its schema
+- [[LLMWiki|LLM Wiki]] — the control layer for the system
+- [[ClaudeCode|Claude Code]] — reads CLAUDE.md as its schema

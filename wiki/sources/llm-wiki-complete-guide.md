@@ -32,19 +32,19 @@ This article is a comprehensive synthesis of Andrej Karpathy's April 2026 "LLM W
 
 ## Connections
 
-- [[Andrej Karpathy]] — originated the LLM Wiki concept in April 2026
-- [[Niklas Luhmann]] — Zettelkasten method as historical precedent and critical contrast
-- [[Vannevar Bush]] — 1945 Memex as prophetic ancestor
-- [[LLM Wiki]] — the core pattern described
+- [[AndrejKarpathy|Andrej Karpathy]] — originated the LLM Wiki concept in April 2026
+- [[NiklasLuhmann|Niklas Luhmann]] — Zettelkasten method as historical precedent and critical contrast
+- [[VannevarBush|Vannevar Bush]] — 1945 Memex as prophetic ancestor
+- [[LLMWiki|LLM Wiki]] — the core pattern described
 - [[RAG]] — the approach LLM Wiki seeks to supersede
 - [[Zettelkasten]] — traditional method compared against
 - [[Hormesis]] — cognitive friction concept used in critique
 - [[Memex]] — Bush's 1945 vision of personal knowledge machine
 - [[Obsidian]] — recommended Markdown IDE
-- [[Claude Code]] — primary LLM agent tool
+- [[ClaudeCode|Claude Code]] — primary LLM agent tool
 - [[NotebookLM]] — Google product compared as "library reading room" vs "garden"
-- [[Tobi Lutke]] — developer of qmd search tool
-- [[Extended Brain]] — publication offering the deepest critique
+- [[TobiLutke|Tobi Lutke]] — developer of qmd search tool
+- [[ExtendedBrain|Extended Brain]] — publication offering the deepest critique
 
 ## Contradictions
 
