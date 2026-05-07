@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/Ingest Data into the CMDB.md",
+                "file": "wiki/syntheses/ci-configuration-full-process.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ingest Data into the CMDB"
+              "title": "ci-configuration-full-process"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/articles/Ingest Data into the CMDB.md",
+                "file": "wiki/syntheses/ci-configuration-full-process.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Ingest Data into the CMDB 的大纲"
+              "title": "ci-configuration-full-process 的大纲"
             }
           }
         ],
@@ -185,35 +185,42 @@
   },
   "active": "12a997f4602df316",
   "lastOpenFiles": [
-    "raw/articles/Configure the CMDB.md",
-    "wiki/entities/ServiceNow.md",
-    "wiki/syntheses/reconciliation-rules-explained.md",
-    "wiki/syntheses/static-vs-dynamic-reconciliation.md",
-    "wiki/sources/configure-the-cmdb.md",
-    "wiki/index.md",
-    "wiki/concepts/MultisourceCMDB.md",
+    "CLAUDE.md",
+    "wiki/syntheses/ci-configuration-full-process.md",
+    "GEMINI.md",
+    "AGENTS.md",
+    "wiki/overview.md",
     "wiki/concepts/IRE.md",
-    "wiki/concepts/CMDB.md",
+    "wiki/concepts/LifeCycleManagement.md",
+    "wiki/concepts/LLMWiki.md",
+    "wiki/concepts/CMDBHealth.md",
+    "wiki/entities/NotebookLM.md",
+    "wiki/syntheses/acc-and-service-graph-connectors.md",
+    "wiki/sources/configure-the-cmdb.md",
+    "wiki/sources/llm-wiki-complete-guide.md",
+    "wiki/sources/ingest-data-into-the-cmdb.md",
+    "wiki/sources/govern-the-cmdb.md",
+    "wiki/syntheses/cmdb-governance-guide.md",
+    "wiki/syntheses/servicenow-discovery-solutions.md",
+    "wiki/syntheses/static-vs-dynamic-reconciliation.md",
+    "raw/articles/Govern the CMDB.md",
+    "raw/articles/image.png",
     "raw/articles/Ingest Data into the CMDB.md",
+    "wiki/syntheses/third-party-data-import-solutions.md",
+    "wiki/concepts/NonDiscoverableData.md",
+    "wiki/concepts/DiscoverableData.md",
+    "wiki/concepts/CSDM.md",
+    "wiki/entities/MIDServer.md",
+    "wiki/entities/IntegrationHubETL.md",
+    "raw/assets/key-feat-of-service-graph-connectors.png",
+    "Pasted image 20260427171022.png",
+    "raw/assets/process-flow-integrationhub-etl.png",
+    "raw/assets/acc-key-features.png",
+    "raw/assets/types-of-discovery.png",
+    "raw/assets/cmdb-tools-for-three-pillars.png",
     "raw/assets/dynamic-reconciliation-rule-advantage.png",
     "raw/assets/ire-process.png",
     "raw/assets",
-    "raw/articles/LLM Wiki：让大模型替你打理知识库的完整指南.md",
-    "wiki/concepts/LLMWiki.md",
-    "README.md",
-    "LICENSE.md",
-    "wiki/entities/ClaudeCode.md",
-    "wiki/concepts/Schema.md",
-    "wiki/concepts/Memex.md",
-    "Claude Code.md",
-    "wikilinks.md",
-    "wiki/overview.md",
-    "wiki/log.md",
-    "wiki/sources/llm-wiki-complete-guide.md",
-    "wiki/entities/Obsidian.md",
-    "wiki/entities/AndrejKarpathy.md",
-    "wiki/concepts/Hormesis.md",
-    "wiki/concepts/Zettelkasten.md",
     "wiki/concepts",
     "wiki/entities",
     "wiki/sources"

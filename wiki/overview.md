@@ -2,8 +2,8 @@
 title: "Overview"
 type: synthesis
 tags: []
-sources: [llm-wiki-complete-guide, configure-the-cmdb]
-last_updated: 2026-04-22
+sources: [llm-wiki-complete-guide, configure-the-cmdb, ingest-data-into-the-cmdb, govern-the-cmdb]
+last_updated: 2026-05-07
 ---
 
 # Overview
@@ -38,11 +38,39 @@ The recommended hybrid: use LLM for scaffolding (linking, indexing, gap-finding)
 
 ## CMDB & Configuration Management
 
-The wiki also covers enterprise IT configuration management through the lens of [[ServiceNow]]'s [[CMDB]] platform. The key insight: a CMDB is only as trustworthy as its data integrity controls. With multiple discovery sources (Discovery, SCCM, Service Graph Connectors, REST integrations) all writing to the same database, governance is essential.
+The wiki also covers enterprise IT configuration management through the lens of [[ServiceNow]]'s [[CMDB]] platform. Three phases form a complete lifecycle:
 
-The [[IRE|Identification & Reconciliation Engine]] acts as a gatekeeper — no source writes directly to the CMDB. It handles identification (unique CI matching), reconciliation (authoritative source selection), deduplication, and reclassification. When reconciliation rules are properly configured, they handle 90% of source-trust decisions.
+1. **Configuration** — CI Class Manager, IRE, reconciliation rules, Multisource CMDB
+2. **Ingestion** — Discovery, Service Mapping, ACC, Service Graph Connectors, IntegrationHub ETL
+3. **Governance** — Health monitoring, duplicate remediation, reclassification, lifecycle management
 
-For deeper auditability, [[MultisourceCMDB|CMDB 360]] (Paris release) retains every proposed value from every source — including rejected ones — enabling data gap analysis, source reversion, and on-the-fly rule recomputation.
+### Data Ingestion Ecosystem
+
+ServiceNow provides a layered ingestion toolkit, each method suited to different environments:
+
+- [[ServiceNowDiscovery|Discovery]] (horizontal/agentless) — scheduled network scanning via the [[MIDServer]] using WMI, SSH, and SNMP probes
+- [[ServiceMapping|Service Mapping]] (top-down) — discovers and models application service dependencies, aligned with [[CSDM]]
+- [[AgentClientCollector|ACC]] (agent-based) — real-time discovery with software utilization data for SAM
+- [[ServiceGraphConnectors]] — pre-built integrations (AWS, Azure, SCCM, Jamf) routing through [[IRE]]
+- [[IntegrationHubETL]] — modern ETL interface replacing legacy Import Sets, with the Robust Transform Engine feeding IRE payloads
+
+### Data Integrity Layer
+
+The [[IRE|Identification & Reconciliation Engine]] acts as a gatekeeper — no source writes directly to the CMDB. It handles identification (unique CI matching), reconciliation (authoritative source selection), deduplication, and reclassification. For deeper auditability, [[MultisourceCMDB|CMDB 360]] retains every proposed value from every source — including rejected ones.
+
+### Governance Layer
+
+Once data is ingested, maintaining quality requires active governance. The [[CMDBHealth|CMDB Health Dashboard]] measures data quality across three dimensions:
+
+- **Completeness** — are required and recommended fields populated?
+- **Compliance** — do CIs match desired state configurations via audits?
+- **Correctness** — are there duplicates, orphans, or stale CIs?
+
+The health dashboard generates remediation tasks that can trigger automated workflows — e.g., re-discovering a stale CI. [[LifeCycleManagement|Life Cycle Management]] via Data Manager policies governs end-of-life for CIs (retire → archive → delete) and periodic attestation/certification of non-discoverable attributes. CI reclassification (upgrade/downgrade/switch) is handled by IRE with class-level restriction rules to prevent data loss.
+
+### The Human Layer: Non-Discoverable Data
+
+Automation handles ~90% of data: hardware, software, network details ([[DiscoverableData]]). But critical governance attributes — support group, change group, managed by group — are [[NonDiscoverableData|non-discoverable]] and must be manually populated via CI Class Manager or technology management offerings within the [[CSDM]] framework. These group assignments drive incident routing, change routing, and Data Manager certification/attestation policies.
 
 ## Historical Lineage
 
